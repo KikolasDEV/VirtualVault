@@ -137,7 +137,7 @@ class _CarritoPageState extends State<CarritoPage> {
             ),
             TextButton(
               onPressed: () async {
-                //Siempre entra a true de que esta cargando, relaiza las acciones y queda en false lo que cierra el bloque
+                //Siempre entra a true de que esta cargando, realiza las acciones y queda en false lo que cierra el bloque
                 if (estaCargado) {
                   showDialog(
                     barrierDismissible: false,
