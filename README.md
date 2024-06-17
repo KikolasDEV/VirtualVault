@@ -41,21 +41,21 @@
 ### Pasos de Instalación
 
 1. **Clonar el Repositorio**
->git clone https://github.com/tu-usuario/virtual-vault.git
->
->cd virtual-vault
+>>git clone https://github.com/tu-usuario/virtual-vault.git
+>>
+>>cd virtual-vault
 
 2. **Instalar Dependencias**
->flutter clean
->flutter pub get
+>>flutter clean
+>>flutter pub get
 
 3. **Ejecutar la Aplicación**
->flutter run
+>>flutter run
 
 ## 🖥️ Uso
 
 1. **Explorar Productos**
-   * Inicia la aplicación para navegar por los productos disponibles. También dispone de un carrusel de imágenes de carácter decorativa con ambiente propagandístico y una barra de búsqueda de los videojuegos que se ofertan actualmente.
+   * Inicia la aplicación para navegar por los productos disponibles. También dispone de un carrusel de imágenes de carácter decorativo con ambiente propagandístico y una barra de búsqueda de los videojuegos que se ofertan actualmente.
 
 2. **Gestión de Favoritos**
    * **Registro/Iniciar Sesión**: Antes de añadir productos a favoritos, asegúrate de estar registrado e iniciar sesión en la aplicación.
@@ -71,39 +71,39 @@
 5. **Modo Administrador**
    * **Registro/Iniciar Sesión**: Accede a funcionalidades de administración solo si tienes privilegios de administrador.
 
->## 📁 Estructura del Proyecto
->
->>virtual-vault/
->>
->>├── android/                  # Archivos específicos de Android
->>
->>├── assets/                   # Recursos como imágenes y fuentes
->>
->>├── ios/                      # Archivos específicos de iOS
->>
->>├── lib/                      # Código fuente principal
->>
->>│   ├── baseDeDatos/          # Gestión de la base de datos
->>
->>│   ├── models/               # Modelos de datos
->>
->>│   ├── screens/              # Pantallas de la aplicación
->>
->>│   ├── view_models/          # Gestión de estados y lógica
->>
->>│   └── widgets/              # Widgets reutilizables
->>
->>├── test/                     # Pruebas de la aplicación
->>
->>├── .gitignore                # Archivos y directorios a ignorar en Git
->>
->>├── pubspec.yaml              # Especificación de dependencias
->>
->>└── README.md                 # Este archivo
+## 📁 Estructura del Proyecto
+
+>>>virtual-vault/
+>>>
+>>>├── android/                  # Archivos específicos de Android
+>>>
+>>>├── assets/                   # Recursos como imágenes y fuentes
+>>>
+>>>├── ios/                      # Archivos específicos de iOS
+>>>
+>>>├── lib/                      # Código fuente principal
+>>>
+>>>│   ├── baseDeDatos/          # Gestión de la base de datos
+>>>
+>>>│   ├── models/               # Modelos de datos
+>>>
+>>>│   ├── screens/              # Pantallas de la aplicación
+>>>
+>>>│   ├── view_models/          # Gestión de estados y lógica
+>>>
+>>>│   └── widgets/              # Widgets reutilizables
+>>>
+>>>├── test/                     # Pruebas de la aplicación
+>>>
+>>>├── .gitignore                # Archivos y directorios a ignorar en Git
+>>>
+>>>├── pubspec.yaml              # Especificación de dependencias
+>>>
+>>>└── README.md                 # Este archivo
 
 ## 🤝 Contribución
 
-> ¡Sientéte libre de apoyar el trabajo con un ⭐! Y por supuesto, si tienes sugerencias, mejoras o encuentras algún problema, por favor abre un ***issue*** o envía un ***pull request***.
+¡Sientéte libre de apoyar el trabajo con un ⭐! Y por supuesto, si tienes sugerencias, mejoras o encuentras algún problema, por favor abre un ***issue*** o envía un ***pull request***.
 Recuerda que se trata de un Trabajo Final del C.F.G.S. de DAM.
 
 ¡Gracias por tu apoyo!
