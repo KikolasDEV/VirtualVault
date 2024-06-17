@@ -41,16 +41,18 @@
 ### Pasos de Instalación
 
 1. **Clonar el Repositorio**
->>git clone https://github.com/tu-usuario/virtual-vault.git
->>
->>cd virtual-vault
+   ```bash
+   git clone https://github.com/tu-usuario/virtual-vault.git
+   cd virtual-vault
 
 2. **Instalar Dependencias**
->>flutter clean
->>flutter pub get
+   ```bash
+   flutter clean
+   flutter pub get
 
 3. **Ejecutar la Aplicación**
->>flutter run
+   ```bash
+   flutter run
 
 ## 🖥️ Uso
 
@@ -72,34 +74,22 @@
    * **Registro/Iniciar Sesión**: Accede a funcionalidades de administración solo si tienes privilegios de administrador.
 
 ## 📁 Estructura del Proyecto
-
->>>virtual-vault/
->>>
->>>├── android/                  # Archivos específicos de Android
->>>
->>>├── assets/                   # Recursos como imágenes y fuentes
->>>
->>>├── ios/                      # Archivos específicos de iOS
->>>
->>>├── lib/                      # Código fuente principal
->>>
->>>│   ├── baseDeDatos/          # Gestión de la base de datos
->>>
->>>│   ├── models/               # Modelos de datos
->>>
->>>│   ├── screens/              # Pantallas de la aplicación
->>>
->>>│   ├── view_models/          # Gestión de estados y lógica
->>>
->>>│   └── widgets/              # Widgets reutilizables
->>>
->>>├── test/                     # Pruebas de la aplicación
->>>
->>>├── .gitignore                # Archivos y directorios a ignorar en Git
->>>
->>>├── pubspec.yaml              # Especificación de dependencias
->>>
->>>└── README.md                 # Este archivo
+```bash
+virtual-vault/
+├── android/                  # Archivos específicos de Android
+├── assets/                   # Recursos como imágenes y fuentes
+├── ios/                      # Archivos específicos de iOS
+├── lib/                      # Código fuente principal
+│   ├── baseDeDatos/          # Gestión de la base de datos
+│   ├── models/               # Modelos de datos
+│   ├── screens/              # Pantallas de la aplicación
+│   ├── view_models/          # Gestión de estados y lógica
+│   └── widgets/              # Widgets reutilizables
+├── test/                     # Pruebas de la aplicación
+├── .gitignore                # Archivos y directorios a ignorar en Git
+├── pubspec.yaml              # Especificación de dependencias
+└── README.md                 # Este archivo
+```
 
 ## 🤝 Contribución
 
